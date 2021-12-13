@@ -1,5 +1,7 @@
 package mytesters;
 
+import java.util.ArrayList;
+
 public class Tester {
 
     public static void main(String[] args) {
@@ -53,6 +55,19 @@ public class Tester {
 
         a.move();
         a.attack();
+
+//        ArrayList can be resizable but regular Array cannot.
+        ArrayList<String> stringArray = new ArrayList<String> ();
+        ArrayList<Warrior> warriorArray = new ArrayList<Warrior> ();
+
+//        for(int i = 0; i < 10; i++) {
+//            stringArray.add("New " + i);
+//        }
+//
+//        for(String name: stringArray) {
+//            System.out.println(name);
+//
+//        }
 
     }
 }
