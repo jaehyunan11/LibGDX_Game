@@ -46,5 +46,13 @@ public class Tester {
 
         w.playerInfo();
 
+        w.move();
+        w.attack();
+
+        Archer a = new Archer();
+
+        a.move();
+        a.attack();
+
     }
 }

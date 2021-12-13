@@ -15,11 +15,13 @@ public class Warrior extends Player implements Actions{
 
     @Override
     public void move() {
+        System.out.println("The Warrior is moving");
 
     }
 
     @Override
     public void attack() {
+        System.out.println("The Warrior is attaking");
 
     }
 } //Warrior
